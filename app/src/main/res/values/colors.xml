@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="ap">#00ffffff</color>
+    <color name="red">#ff3030</color>
+    <color name="brown">#d1b084</color>
+    <color name="brown_out">#c4a479</color>
+    <color name="brown_little">#e6d5bc</color>
+    <color name="brown_little_out">#d6c2a9</color>
+
+
+</resources>
