@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_black"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="自定义模式"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/tv_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="使用"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/zhenxinhua" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:layout_marginTop="2dp"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_zhenxin_01"
+                style="@style/EditBase"
+                android:hint="上次ML选择了什么避孕方式" />
+
+            <EditText
+                android:id="@+id/et_zhenxin_02"
+                style="@style/EditBase"
+                android:hint="说出三种避孕方式" />
+
+            <EditText
+                android:id="@+id/et_zhenxin_03"
+                style="@style/EditBase"
+                android:hint="挑一名同性亲吻脸颊十秒" />
+
+            <EditText
+                android:id="@+id/et_zhenxin_04"
+                style="@style/EditBase"
+                android:hint="选择一位异性嘴对嘴传递食物" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_zhenxin_05"
+                style="@style/EditBase"
+                android:hint="和最爱的人一起睡你会做什么?"/>
+
+            <EditText
+                android:id="@+id/et_zhenxin_06"
+                style="@style/EditBase"
+                android:hint="身上最敏感的部位" />
+
+            <EditText
+                android:id="@+id/et_zhenxin_07"
+                style="@style/EditBase"
+                android:hint="怎么看待性?" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/line" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/damaoxian" />
+
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_damao_01"
+                style="@style/EditBase"
+                android:hint="[女]例假什么时候来?[男]持续力多久?" />
+
+            <EditText
+                android:id="@+id/et_damao_02"
+                style="@style/EditBase"
+                android:hint="第一次是什么时候?"/>
+
+            <EditText
+                android:id="@+id/et_damao_03"
+                style="@style/EditBase"
+                android:hint="与右边异性十指相扣对视10秒?" />
+
+            <EditText
+                android:id="@+id/et_damao_04"
+                style="@style/EditBase"
+                android:hint="第一个喜欢的异性是什么名字?" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_damao_05"
+                style="@style/EditBase"
+                android:hint="向左边隔壁桌的女女求拥抱?" />
+
+            <EditText
+                android:id="@+id/et_damao_06"
+                style="@style/EditBase"
+                android:hint="现在想被有钱人包养吗?" />
+
+            <EditText
+                android:id="@+id/et_damao_07"
+                style="@style/EditBase"
+                android:hint="当过第三者吗?" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
