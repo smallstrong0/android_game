@@ -1,5 +1,5 @@
 #Android Games
-> 写了些Android的小游戏，分享一下~
+> lallala 写了些Android的小游戏，分享一下~
 
 
 ## 大转盘游戏
